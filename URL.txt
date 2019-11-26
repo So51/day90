@@ -1,0 +1,5 @@
+var params = (new
+URL("https://example.com/?name=Mohammed%20Otaibi&age=56")).searchParams;
+var name = params.get("name"); 
+var age = parseInt(params.get("age")); 
+document.write(name);
